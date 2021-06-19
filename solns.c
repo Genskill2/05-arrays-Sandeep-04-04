@@ -22,6 +22,7 @@ int main(void) {
       return sum/size;
   }
 
+//Finding prime factors for a number
 int factors(int, int []);
 
 int main(void) {
@@ -69,9 +70,8 @@ int factors(int n, int arr[]){
        return idx; 
 }
 
-#include <stdio.h>
-#include <assert.h>
 
+//For finding a maximum number in an array
 
 int max(int [], int);
 
@@ -93,10 +93,8 @@ int max(int arr[], int size){
     return max_num;
 }
 
-#include <stdio.h>
-#include <assert.h>
 
-
+//For finding minimum number in an array
 int min(int [], int);
 
 int main(void) {
@@ -117,10 +115,9 @@ int min(int arr[], int size){
     return min_num;
 }
 
-#include <stdio.h>
-#include <assert.h>
 
 
+// Finding mode of an Array............
 int mode(int [], int);
 
 int main(void) {
