@@ -12,11 +12,4 @@ int main(void) {
   assert (average(y, 1) == 5.0);
   printf("Average: passed\n");
   }
-  
-  float average(int x[], int size){
-      int sum = 0;
-      for(int i = 0; i< size ; ++i){
-          sum = sum + x[i];
-      }
-      return sum/size;
-  }
+ 
